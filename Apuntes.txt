@@ -1,0 +1,19 @@
+con display:inline, no se permite establecer un alto y un ancho
+con display:inline-block sí se permite establecer alto y ancho
+box-sizing:border box, el ancho que le digamos al control, será el ancho, automáticamente le restará el borde, margen y padding
+recomendable: tamaño base 16px
+overflow:hidden => truco para que respeten el ancho establecido (imágenes)
+
+Trabajar con flexbox
+Primero establecer al container
+display:flex
+flex-direction: por defecto es row. si no ponemos nada sería igual
+flex-wrap: por defecto es no-wrap. Esto hace, que si se reduce el tamaño de la pantalla/navegador, salta o no a la siguiente línea.
+justify-content: Por defecto flex-start
+align-items: Por defecto strech. Esto hace que coja el ancho definido en el contenedor padre siempre que se haya especificado.
+
+Elementos
+order => Por defecto 0. Se ordena de 0 a infinito.
+flex-grow => Cada uno de los elementos trata de usar el 100% del tamaño de su contenedor
+flex-shrink ==> no se encoje el div, al reducir el tamaño de la pantalla, pero sí se agranda. Hay que establecer el width.
+flex-basis ==> decirle a un elemento el % que queremos que ocupe

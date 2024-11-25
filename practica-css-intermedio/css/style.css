@@ -1,0 +1,96 @@
+/*
+primary: #386641
+secondary: #6a994e
+danger: #bc4749
+info: #f2e8cf
+*/
+
+body {
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+.container {
+    width: 95%;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mt-2 {
+    margin-top: 2rem;
+}
+
+.btn {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 0.5em;
+    margin: 0 0.1em;
+    border-radius: 0.5em;
+}
+
+.btn-primary {
+    background-color: #386641;
+    color: white;
+}
+
+.btn-secondary {
+    background-color: #6a994e;
+    color: white;
+}
+
+.btn-danger {
+    background-color: #bc4749;
+    color: black;
+}
+
+.btn-info {
+    background-color: #f2e8cf;
+    color: black;
+}
+
+.logo {
+    display: block;
+    font-size: 3em;
+    padding: 1em;
+    text-decoration: none;
+    text-align: center;
+    background-color: #386641;
+    color: white;
+}
+
+.card {
+    width: 20rem;
+    background-color: #386641;
+    overflow: hidden;
+    color: white;
+    border-radius: 0.5em;
+}
+
+.card-img {
+    width: 100%;
+}
+
+.card-body {
+    padding: 1em;
+}
+
+.card-body h5 {
+    font-size: 1.5rem;
+    margin: 1em 0;
+    font-weight: 900;
+}
+
+.card-body p {
+    font-weight: 300;
+}
